@@ -1,0 +1,1 @@
+CREATE TYPE third_party_service AS ENUM ('podium', 'boulevard');

@@ -1,0 +1,1 @@
+export type UITableCustomColumnEnableCheckboxObject = {[key in string]: boolean}

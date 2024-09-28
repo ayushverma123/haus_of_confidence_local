@@ -1,0 +1,1 @@
+export enum ContactEqualityType  { Fuzzy, Exact }

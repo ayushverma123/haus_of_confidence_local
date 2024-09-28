@@ -1,0 +1,1 @@
+export default 'ghl_opportunities'

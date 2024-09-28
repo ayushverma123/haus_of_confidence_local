@@ -1,0 +1,1 @@
+export const buildPath = require('../bin/www').rootPath

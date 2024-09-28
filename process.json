@@ -1,0 +1,22 @@
+{
+    "apps" : [{
+      "name": "Haus of Confidence Backend Services",
+      "script": "./bin_www/bin/www.js",
+      "instances" : "max",
+      "exec_mode" : "cluster",
+      "wait_ready": true,
+      "watch": ["./build", "./bin_www"],
+      "ignore_watch" : ["./node_modules", "./certs","./cli","./public","./src", "./server"],
+      "watch_options": {
+        "followSymlinks": false
+      },
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      },
+      "error": "./logs/server-err.log",
+      "output": "./logs/server-out.log"
+   }]
+  }

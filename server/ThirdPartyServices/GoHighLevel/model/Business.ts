@@ -1,0 +1,18 @@
+export type Business = {
+    id: string,
+    name: string,
+    phone: string,
+    email: string,
+    website: string,
+    address: string,
+    city: string,
+    state: string,
+    country: string,
+    postalCode: string,
+    description: string,
+    updatedBy: string,
+    updatedAt: string,
+    createdBy: string,
+    createdAt: string,
+    locationId: string,
+}

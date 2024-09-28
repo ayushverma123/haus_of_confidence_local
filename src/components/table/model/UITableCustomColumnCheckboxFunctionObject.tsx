@@ -1,0 +1,1 @@
+export type UITableCustomColumnCheckboxFunctionObject = {[key in string]: (rowId: number, rowIndex: number, currentValue: any) => void}

@@ -1,0 +1,1 @@
+export default 'webhooks_queue'

@@ -1,0 +1,1 @@
+export type GeneralContactTags = {[key: string]: string}

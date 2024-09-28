@@ -1,0 +1,43 @@
+import { ContactAttribution } from "./ContactAttribution";
+import { CustomField } from "../CustomField";
+import { DndSettings } from "./DndSettings";
+
+export type Contact = {
+    id: string,
+    name: string,
+    locationId: string,
+    firstName: string,
+    lastName: string,
+    email: string,
+    emailLowerCase: string,
+    timezone: string,
+    companyName: string,
+    phone: string,
+    dnd: boolean,
+    dndSettings: DndSettings,
+    type: string,
+    source: string,
+    assignedTo: string,
+    address1: string,
+    city: string,
+    state: string,
+    postalCode: string,
+    country: string,
+    website: string,
+    tags: Array<string>,
+    dateOfBirth: string,
+    dateAdded: string,
+    dateUpdated: string,
+    attachments: string,
+    ssn: string,
+    gender: string,
+    keyword: string,
+    firstNameLowerCase: string,
+    fullNameLowerCase: string,
+    lastNameLowerCase: string,
+    lastActivity: string,
+    customFields: Array<CustomField>,
+    businessId: string,
+    attributionSource: ContactAttribution,
+    lastAttributionSource: ContactAttribution
+}

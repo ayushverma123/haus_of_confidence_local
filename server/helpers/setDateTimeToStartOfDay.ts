@@ -1,0 +1,1 @@
+export const setDateTimeToStartOfDay = (date: Date) => new Date(new Date(new Date(new Date(date.setHours(0)).setMinutes(0)).setSeconds(0)).setMilliseconds(0))

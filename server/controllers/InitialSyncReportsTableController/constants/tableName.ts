@@ -1,0 +1,1 @@
+export default "initial_sync_reports"

@@ -1,0 +1,1 @@
+ALTER TABLE "public"."automated_message_schedules" ALTER COLUMN "time_trigger" TYPE jsonb USING time_trigger::jsonb;
